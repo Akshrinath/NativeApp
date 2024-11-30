@@ -1,0 +1,35 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+:root {
+  --pink: #F72585; /*pink-magenta || Razzmatazz*/
+  --dark-gray: #666666;
+}
+
+/* Custom styling for scrollbar */
+::-webkit-scrollbar {
+    width: 10px; /* Set the width of the scrollbar */
+  }
+  
+  /* Custom styling for scrollbar track */
+  ::-webkit-scrollbar-track {
+    background-color: #f1f1f1; /* Set the background color of the track */
+  }
+  
+  /* Custom styling for scrollbar thumb */
+  ::-webkit-scrollbar-thumb {
+    background-color: #888; /* Set the color of the thumb */
+    border-radius: 10px; /* Set the border radius of the thumb */
+  }
+  
+  /* Hide scrollbar buttons (arrows) */
+  ::-webkit-scrollbar-button {
+    display: none; /* Hide scrollbar buttons */
+  }
+  
+  /* Custom styling for scrollbar corner */
+  ::-webkit-scrollbar-corner {
+    background-color: transparent; /* Set the background color of the scrollbar corner */
+  }
